@@ -25,6 +25,12 @@ namespace BankAccounts.Controllers
             return View();
         }
 
+        [HttpGet("/login")]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
